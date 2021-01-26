@@ -1,0 +1,17 @@
+app:
+  applicationName: echo
+  containerName: echo
+  serviceName: echo
+  hostName:
+  image:
+    name:
+    repository: 
+    tag:
+    pullPolicy: Always
+    pullSecret:
+  deployId: 
+  evars: 
+    - name: MESSAGE
+      val: "Hello World"
+  secrets: []
+
